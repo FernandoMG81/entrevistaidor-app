@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@types/easy-speech':
+        specifier: ^1.2.4
+        version: 1.2.4
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.39)
+      easy-speech:
+        specifier: ^2.3.1
+        version: 2.3.1
       postcss:
         specifier: ^8.4.39
         version: 8.4.39
@@ -470,6 +476,9 @@ packages:
   '@types/dom-speech-recognition@0.0.4':
     resolution: {integrity: sha512-zf2GwV/G6TdaLwpLDcGTIkHnXf8JEf/viMux+khqKQKDa8/8BAUtXXZS563GnvJ4Fg0PBLGAaFf2GekEVSZ6GQ==}
 
+  '@types/easy-speech@1.2.4':
+    resolution: {integrity: sha512-FistDuzY67w/UVSMfzJdfNgX2E8Up4h6zFn6rY/gfy8sITBITBJ1nlE3Vot34KaX71hCINXuq7gY182usMBKnw==}
+
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
@@ -798,6 +807,10 @@ packages:
   doctrine@2.1.0:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
+
+  easy-speech@2.3.1:
+    resolution: {integrity: sha512-oM7vvpbjmC9Ci/6CR/9DnGHci5hCSkXtlSy1aAFzXGdQPR4IH4jqkc/hQAM+slhCLM/wn/QrpgPOUGbxuR+Z3g==}
+    engines: {node: '>= 14.x'}
 
   electron-to-chromium@1.4.816:
     resolution: {integrity: sha512-EKH5X5oqC6hLmiS7/vYtZHZFTNdhsYG5NVPRN6Yn0kQHNBlT59+xSM8HBy66P5fxWpKgZbPqb+diC64ng295Jw==}
@@ -2216,6 +2229,8 @@ snapshots:
 
   '@types/dom-speech-recognition@0.0.4': {}
 
+  '@types/easy-speech@1.2.4': {}
+
   '@types/estree@1.0.5': {}
 
   '@types/json5@0.0.29': {}
@@ -2633,6 +2648,8 @@ snapshots:
   doctrine@2.1.0:
     dependencies:
       esutils: 2.0.3
+
+  easy-speech@2.3.1: {}
 
   electron-to-chromium@1.4.816: {}
 
